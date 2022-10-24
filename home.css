@@ -817,4 +817,8 @@ body {
   #head-footer-right {
     margin-left: 37px;
   }
+  #list-footer {
+    margin-left: 5px;
+    width: 116px;
+  }
 }

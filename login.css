@@ -10,30 +10,14 @@ body {
 }
 main {
   display: flex;
-  flex: 1;
+  height: 100%;
 }
 
-.side-content {
-  flex: 1;
-}
 .form-content {
-  /* flex: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-/* .footer-left,
-.footer-rigth {
-  flex: 1;
-  display: flex;
-} */
-
-/*.head,
-.register-form {
-  display: flex;
-  flex: 1;
-  /* position: relative; 
-}*/
 
 .logo-review img {
   margin-right: 10px;
@@ -45,25 +29,12 @@ main {
 }
 
 .head {
-  /* position: relative; */
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* border: 2px solid black; */
+
   margin-top: 58px;
   margin-left: 31px;
-  /* justify-content: flex-end; */
-  /* width: 100%;
-  margin-top: -40%;
-  margin-left: 13%; */
-  /* background-color: white;
-  display: flex;
-  flex-direction: column;
-   */
-  /* margin-left: -22%;
-  margin-top: 35px;
-  padding: 10px; */
-  /* margin-top: 10%; */
 }
 
 #login {
@@ -87,7 +58,7 @@ main {
   line-height: 100%;
   color: #6a4029;
   margin-bottom: 100px;
-  margin-top: 124px;
+  margin-top: 74px;
 }
 
 .register-form {
@@ -140,32 +111,14 @@ input {
   width: 90%;
   margin: 10px;
 }
-/* .flex {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-} */
 
 .container {
   display: flex;
   flex-direction: row;
   flex: 1;
 }
-/* .logo h1 {
-  align-items: center;
-  text-align: center;
-  font-family: Rubik;
-  font-style: Bold;
-  font-size: 20px;
-  line-height: 24px;
-  line-height: 100%;
-  /* Align: Left; */
-/* vertical-align: Top;
-  color: #0b132a;
-} */
 
 .btn {
-  /* color: #6a4029; */
   border-color: #ffba33;
   background-color: #ffba33;
 }
@@ -176,32 +129,18 @@ form {
   align-items: center;
   justify-content: center;
 }
-.forgot-password {
-  font-family: Rubik;
-  font-size: Bold;
-  font-size: 20px;
-  font-weight: 500;
-  color: #6a4029;
-  margin-left: -407px;
-  margin-top: 34px;
-  text-decoration: underline;
-  position: absolute;
-}
 .full-width {
   position: relative;
-  margin-top: -79%;
+  margin-top: -71%;
   width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   display: flex;
   flex: 1;
-
-  /* margin-left: ; */
 }
 
 #sign-up {
-  /* position: absolute; */
   justify-content: center;
   margin-top: 40px;
   text-align: center;
@@ -211,20 +150,18 @@ form {
   left: 70%;
   top: 7px;
   border-radius: 20px;
-  margin-top: 58px;
+
   font-family: Rubik;
   font-weight: 500;
   font-style: Bold;
   font-size: 20px;
   line-height: 25px;
   line-height: 105%;
-  /* align: Left;
-  vertical-align: Top;
-  spacing: 5px; */
 }
+
 .google-icon {
-  margin-left: -302px;
-  margin-top: 370px;
+  margin-left: -297px;
+  margin-top: 352px;
   position: absolute;
 }
 #google-sign-up {
@@ -296,11 +233,8 @@ form {
   width: 350px;
   margin-top: 10px;
 }
-/* .create-now {
-} */
 
 footer {
-  /* flex: 6; */
   background-color: #f8f8f8;
   display: flex;
   flex-direction: row;
@@ -330,8 +264,7 @@ img {
 .footer-left {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
-  /* flex: 1; */
+
   margin-top: 5%;
   padding: 80px;
 }
@@ -373,7 +306,7 @@ img {
 
 .copyright {
   color: #afb5c0;
-  /* margin-left: -75%; */
+
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -411,7 +344,7 @@ img {
   font-size: 16px;
   line-height: 30px;
   line-height: 158%;
-  /* Align: Left */
+
   color: #4f5665;
 }
 
@@ -421,7 +354,47 @@ img {
   font-size: 20px;
   line-height: 24px;
   line-height: 100%;
-  /* Align: Left;
-  Vertical align: Top;*/
   color: #0b132a;
+}
+
+@media only screen and (max-width: 768px) {
+  .side-content {
+    display: none;
+  }
+  .full-width {
+    margin: -25% auto;
+    margin-bottom: 38px !important;
+  }
+  .input {
+    width: 78%;
+  }
+  .jumbotron {
+    display: none;
+  }
+  #sign-up {
+    width: 80%;
+    width: 80%;
+  }
+  #google-sign-up {
+    width: 80%;
+  }
+  .google-icon {
+    margin-left: -377px;
+  }
+
+  .product-footer {
+    margin-top: 3px;
+    margin-left: -147px;
+  }
+  .engage-footer {
+    margin-top: 3px;
+    margin-left: -147px;
+  }
+  .coffee-review {
+    width: 345px;
+  }
+  .google-icon {
+    margin-left: -377px;
+    margin-top: 352px;
+  }
 }
