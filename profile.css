@@ -1,0 +1,487 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #f8f8f8; */
+}
+
+.navbar-brand {
+  font-family: Rubik;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 19px;
+  line-height: 100%;
+  vertical-align: Top;
+  color: #0b132a;
+  font-weight: 700;
+}
+.picture {
+  width: 37px;
+  height: 37px;
+  border-radius: 22px;
+}
+.jumbotron {
+  background-image: url(/Assets/background-Coffee.png);
+  background-size: cover;
+  height: 1215px;
+}
+.display-4 {
+  font-family: Rubik;
+  font-style: Medium;
+  font-size: 35px;
+  line-height: 50px;
+  line-height: 121%;
+  align-content: center;
+  font-weight: 500;
+  vertical-align: Top;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.card {
+  position: absolute;
+  margin-top: 150px;
+}
+.card-body {
+  width: 310px;
+  height: 350px;
+}
+
+.display-profile {
+  margin-top: -14px;
+  margin-left: 28px;
+}
+
+.card-img-top {
+  border-radius: 100px;
+  height: 125px;
+  width: 125px;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+.ellips {
+  height: 35px;
+  width: 35px;
+  margin-top: 125px;
+  margin-left: -41px;
+}
+.pen {
+  height: 17px;
+  width: 17px;
+  margin-top: 125px;
+  margin-left: -30px;
+  color: #ffffff;
+}
+/* .pen-right {
+} */
+.card-name {
+  font-family: Rubik;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 50px;
+  line-height: 121%;
+  align-content: center;
+  font-weight: 700;
+  vertical-align: Top;
+  color: #000000;
+  margin-top: 27px;
+  margin-left: 45px;
+}
+.card-email {
+  font-family: Rubik;
+  font-size: 10px;
+  line-height: 18px;
+  align-content: center;
+  font-weight: 400;
+  vertical-align: Top;
+  color: #4f5665;
+  margin-top: -14px;
+  margin-left: 52px;
+}
+.ordered {
+  font-family: Rubik;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 25px;
+  align-content: center;
+  font-weight: 400;
+  vertical-align: Top;
+  color: #4f5665;
+  margin-top: 36px;
+  margin-left: 10px;
+  width: 210px;
+}
+
+#detail-contact {
+  background-color: #ffffff;
+  width: 58%;
+  height: 350px;
+  background-image: none;
+  margin-top: 153px;
+  position: absolute;
+  margin-left: 329px;
+  border-radius: 8px;
+}
+.display-5 {
+  font-family: Poppins;
+  font-style: bold;
+  font-size: 25px;
+  line-height: 38px;
+  align-content: left;
+  font-weight: 700;
+  padding: 10px;
+  color: #4f5665;
+}
+.lead-2 {
+  font-family: Poppins;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 30px;
+  align-content: left;
+  font-weight: 500;
+  padding: 10px;
+  color: #9f9f9f;
+}
+.detail-email {
+  font-family: Rubik;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 50px;
+  line-height: 211%;
+  align-content: center;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: -4px;
+  margin-top: 4px;
+}
+.my-1 {
+  margin-top: -15px;
+  color: #000000;
+  align-content: center;
+  /* width: 1px; */
+  text-decoration: underline;
+}
+#mobile-number {
+  width: 300px;
+}
+#delivery {
+  margin-top: 17px;
+}
+#street {
+  width: 360px;
+  line-height: 30px;
+  align-content: Left;
+  vertical-align: Top;
+}
+.info-panel {
+  margin-top: -600px;
+  background-color: #ffffff;
+  height: 400px;
+}
+.display-6 {
+  width: 200px;
+}
+#background-jumbotron {
+  background-image: none;
+}
+
+#detail-jumbotron {
+  border-radius: 8px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  margin-top: 600px;
+  position: absolute;
+  margin-left: 0px;
+  padding: 0px;
+  width: 900px;
+  height: 425px;
+}
+#details {
+  width: 300px;
+}
+#detail-name {
+  width: 400px;
+}
+#date {
+  margin-top: 66px;
+  margin-left: 179px;
+  position: absolute;
+  width: 200px;
+}
+#gender {
+  margin: 10px;
+}
+#dot-color {
+  color: #6a4029;
+  background-color: #ffba33;
+  border-radius: 20px;
+}
+#new-container {
+  height: 150px;
+  margin-top: -621px;
+  margin-left: 980px;
+  width: 350px;
+  font-family: Poppins;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 30px;
+  line-height: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+}
+/* .btn {
+} */
+#save {
+  background-color: #6a4029;
+  text-align: center;
+  text-decoration: #ffffff;
+  height: 70px;
+  width: 90%;
+  left: 70%;
+  top: 7px;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 27px;
+  line-height: 100%;
+  justify-content: center;
+}
+#cancel {
+  background-color: #ffba33;
+  text-align: center;
+  text-decoration: #ffffff;
+  height: 70px;
+  width: 90%;
+  left: 70%;
+  top: 7px;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 27px;
+  line-height: 100%;
+  justify-content: center;
+}
+#edit-pwd {
+  background-color: #ffffff;
+  text-align: left;
+  text-decoration: #ffffff;
+  height: 70px;
+  width: 90%;
+  left: 70%;
+  top: 7px;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 27px;
+  line-height: 100%;
+  justify-content: center;
+}
+#logout {
+  background-color: #ffffff;
+  text-align: left;
+  text-decoration: #ffffff;
+  height: 70px;
+  width: 90%;
+  left: 70%;
+  top: 7px;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 27px;
+  line-height: 100%;
+  /* justify-content: left; */
+}
+#text-save {
+  padding: 0px;
+}
+.text-box {
+  margin-bottom: 0px;
+  color: #6a4029;
+}
+#save-text {
+  color: #ffffff;
+}
+.detail-male {
+  font-family: Poppins;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 30px;
+  line-height: 100%;
+  align-content: left;
+  font-weight: 500;
+  color: #9f9f9f;
+}
+.detail-female {
+  font-family: Poppins;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 30px;
+  line-height: 100%;
+  align-content: left;
+  font-weight: 700;
+  color: #6a4029;
+}
+
+footer {
+  background-color: #f8f8f8;
+}
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  margin-top: 100px;
+}
+
+.review-coffee {
+  margin-top: 25px;
+  width: 63%;
+  text-align: left;
+  font-family: Rubik;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 158%;
+  align-content: flex-start;
+  font-weight: 500;
+  vertical-align: Top;
+  color: #4f5665;
+}
+.image-icon {
+  /* position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px; */
+  margin-left: -4%;
+}
+.copyright {
+  color: #afb5c0;
+  align-items: center;
+}
+
+#product {
+  margin-left: 190px;
+}
+/* #engage {
+  /* margin-right: -100px; 
+} */
+.head-footer-right {
+  /* text-align: left; */
+  font-family: Rubik;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  line-height: 141%;
+  color: #0b132a;
+  margin-top: 107px;
+}
+.list {
+  margin-left: -19%;
+  list-style: none;
+  /* text-align: left; */
+  font-family: Rubik;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 50px;
+  line-height: 245%;
+  word-spacing: 5px;
+
+  color: #4f5665;
+}
+/*  
+.footer-left,
+.footer-rigth {
+  flex: 1;
+  display: flex;
+} */
+/*  */
+/* img {
+  display: flex;
+
+  align-items: center;
+  font-family: Rubik;
+  font-style: Bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 100%;
+  vertical-align: top;
+} */
+
+/* .footer-left { */
+/* display: flex; */
+/* flex-direction: column; */
+/* text-align: center; */
+/* flex: 1; */
+/* margin-top: 5%; */
+/* padding: 80px; */
+/* } */
+/* .logo-review {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -30px;
+} */
+/* .coffee-review {
+  width: 400px;
+  height: 120px;
+  align-content: space-around;
+}
+.review-coffee {
+  margin-top: 15px;
+  width: 80%;
+  text-align: left;
+  font-family: Rubik;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 158%;
+  align-content: flex-start;
+
+  vertical-align: Top;
+  color: #4f5665;
+}
+
+
+/* */
+
+/* .footer-right {
+  display: flex;
+  text-align: center;
+  flex: 1;
+  margin-top: 5%;
+  padding: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+/* .head-footer-left {
+ 
+} */
+
+/* */
+
+/* .text-coffee {
+  font-family: Rubik;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 100%;
+
+  color: #0b132a;
+} */

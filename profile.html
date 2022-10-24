@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/profile.css" />
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand brand" href="#"> <img src="/Assets/coffee 1.png" alt="logo-brand" class="logo-brand" /> Coffee Gayoe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mr-auto" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/products.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Your Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">History</a>
+              </li>
+            </ul>
+            <div class="left-nav-group row">
+              <div class="col-md">
+                <a href="#"><img src="/Assets/search.png" alt="search" /></a>
+              </div>
+              <div class="col-md">
+                <a href="#"><img src="/Assets/chat .png" alt="search" /></a>
+              </div>
+              <div class="col-md">
+                <a href="#"><img class="picture" src="/Assets/parker.jpeg" alt="profile" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <p class="display-4">User Profile</p>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="card-body">
+              <div class="display-profile">
+                <img src="/Assets/parker.jpeg" class="card-img-top" alt="Profile-Photo" />
+                <img src="/Assets/Ellipse 40.png" class="ellips" />
+                <img src="/Assets/pen.png" class="pen" />
+                <p class="card-name">Putra Parker</p>
+                <p class="card-email">putra@spider-man.com</p>
+                <p class="ordered">Has been ordered 15 products</p>
+              </div>
+            </div>
+          </div>
+          <div class="jumbotron" id="detail-contact">
+            <div class="container" style="width: auto">
+              <h1 class="display-5">contacts</h1>
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="lead-2">
+                    Email adress :
+                    <p class="detail-email">putra@spider-man.com</p>
+                    <hr class="my-1" />
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <h1 class="lead-2" id="mobile-number">
+                    Mobile number :
+                    <p class="detail-email">(+62) 813456782</p>
+                    <hr class="my-1" />
+                  </h1>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <h1 class="lead-2" id="delivery">
+                  Delivery adress :
+                  <p class="detail-email" id="street">Iskandar Street no. 67 Block A Near Bus Stop</p>
+                  <hr class="my-1" />
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="jumbotron" id="background-jumbotron">
+              <div class="row" id="detail-jumbotron">
+                <div class="col-6">
+                  <h1 class="display-5">details</h1>
+                  <h1 class="lead-2" id="detail-name">
+                    Display name :
+                    <p class="detail-email">Putra Parker</p>
+                    <hr class="my-1" />
+                  </h1>
+                  <h1 class="lead-2" id="detail-name">
+                    First name :
+                    <p class="detail-email">Putra</p>
+                    <hr class="my-1" />
+                  </h1>
+                  <h1 class="lead-2" id="detail-name">
+                    Last name :
+                    <p class="detail-email">Parker</p>
+                    <hr class="my-1" />
+                  </h1>
+                </div>
+                <div class="col-6" id="details">
+                  <h1 class="lead-2" id="date">
+                    DD/MM/YY
+                    <p class="detail-email">03/04/90</p>
+                    <hr class="my-1" />
+                    <div class="col" id="gender">
+                      <p class="detail-male">
+                        <img src="/Assets/Ellipse-white.png" alt="dot" />
+                        Male
+                      </p>
+                      <p class="detail-female"><img id="dot-color" src="/Assets/Ellipse-white.png" alt="dot" /> Female</p>
+                    </div>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container" id="new-container">
+            <div class="d-flex flex-column bd-highlight mb-3">
+              <div class="p-2 bd-highlight" id="text-save">Do you want to save the change?</div>
+              <div class="p-2 bd-highlight">
+                <button class="btn" id="save">
+                  <p class="text-box" id="save-text">Save Change</p>
+                </button>
+              </div>
+              <div class="p-2 bd-highlight">
+                <button class="btn" id="cancel">
+                  <p class="text-box">Cancel</p>
+                </button>
+              </div>
+              <br />
+              <br />
+              <div class="p-2 bd-highlight">
+                <button class="btn" id="edit-pwd">
+                  <p class="text-box">Edit Password</p>
+                </button>
+              </div>
+              <div class="p-2 bd-highlight">
+                <button class="btn" id="logout">
+                  <p class="text-box">Logout</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Jumbotron -->
+
+      <footer class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <aside class="footer-left">
+              <div class="coffee-review">
+                <div class="navbar-brand">
+                  <div class="row">
+                    <div class=".col-sm-5 .col-md-6">
+                      <!-- <img src="/Assets/coffee 1.png " alt="Logo Coffee" />
+                      <h1 class="navbar-brand">Coffee Gayoe</h1> -->
+
+                      <a class="navbar-brand brand" href="#"> <img src="/Assets/coffee 1.png" alt="logo-brand" class="logo-brand" /> Coffee Gayoe</a>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="review-coffee">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+              </div>
+              <div class="image-icon">
+                <img src="/Assets/Facebook.png" />
+                <img src="/Assets/Twitter.png" />
+                <img src="/Assets/Instagram.png" />
+              </div>
+              <p class="copyright">©2020CoffeeStore</p>
+            </aside>
+          </div>
+
+          <div class="col-2" id="product">
+            <aside class="footer-right">
+              <div>
+                <p class="head-footer-right">Product</p>
+                <ol class="list">
+                  <li>Download</li>
+                  <li>Pricing</li>
+                  <li>Locations</li>
+                  <li>Countries</li>
+                  <li>Blog</li>
+                </ol>
+              </div>
+            </aside>
+          </div>
+          <div class="col-2" id="engage">
+            <aside class="footer-right">
+              <div>
+                <p class="head-footer-right">Engage</p>
+                <ol class="list">
+                  <li>Coffe Shop ?</li>
+                  <li>FAQ</li>
+                  <li>About Us</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms of Service</li>
+                </ol>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

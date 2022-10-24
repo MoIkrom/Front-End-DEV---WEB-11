@@ -1,0 +1,270 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Start Navbar */
+.navbar-brand {
+  font-family: Rubik;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 19px;
+  line-height: 100%;
+  vertical-align: Top;
+  color: #0b132a;
+  font-weight: 700;
+}
+#border-bottom {
+  border-bottom: 0.2px solid #9f9f9f;
+}
+#parker {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+/* End Navbar */
+#border-right {
+  border-right: 0.2px solid #9f9f9f;
+}
+/* Coupon */
+#promo-title {
+  font-family: Rubik;
+  font-style: Bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #6a4029;
+  text-align: center;
+  font-weight: 700;
+}
+#coupon-card {
+  background-color: #ffcb65;
+  border-radius: 20px;
+}
+#off {
+  width: 250px;
+  text-align: center;
+}
+.coupon-info {
+  margin-top: 50px;
+}
+#code-coupon {
+  font-family: Poppins;
+  font-style: Regular;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  margin-top: 14px;
+}
+#code-text {
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 33px;
+  color: #000000;
+  text-align: center;
+  margin-top: 14px;
+}
+
+#btn-coupon {
+  background-color: #6a4029;
+  border-radius: 15px;
+  height: 50px;
+  width: 280px;
+  margin-top: 36px;
+  font-family: Poppins;
+  font-style: Bold;
+  font-size: 17px;
+  line-height: 26px;
+  line-height: 100%;
+  vertical-align: Top;
+  color: #ffffff;
+  font-weight: 700px;
+}
+.desc {
+  margin-top: 10px;
+  font-family: Rubik;
+  font-style: bold;
+  font-size: 12px;
+  line-height: 14px;
+  line-height: 100%;
+  vertical-align: Top;
+  padding: 5px;
+  color: #4f5665;
+}
+#title-terms {
+  margin-bottom: -3px;
+  margin-left: -4px;
+  font-family: Rubik;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  line-height: 100%;
+  vertical-align: Top;
+  padding: 5px;
+  color: #4f5665;
+}
+/* End Coupon */
+
+/* Start Menu and Product */
+#beef {
+  border-radius: 67px;
+  margin-left: 46px;
+  margin-top: 19px;
+}
+.terms-condition {
+  margin-left: -57px;
+  margin-top: 77px;
+}
+.card-text-1 {
+  font-family: Poppins;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.menu-products-1 {
+  font-family: Rubik;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 100%;
+  vertical-align: Top;
+  font-weight: 700;
+  padding: 5px;
+  color: #6a4029;
+}
+.menu-products {
+  font-family: Rubik;
+  font-style: Regular;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 24px;
+  line-height: 100%;
+  vertical-align: Top;
+  padding: 5px;
+  color: #9f9f9f;
+}
+.text-center {
+  margin-top: 10px;
+  justify-content: between;
+}
+#title-menu {
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-left: -70px;
+}
+.card-products {
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  width: 143px;
+  margin-bottom: 45px;
+}
+.card-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 63px;
+  margin-top: -34px;
+}
+
+.card-text {
+  font-family: Poppins;
+  font-style: Bold;
+  font-size: 17px;
+  line-height: 26px;
+  line-height: 100%;
+  text-align: Center;
+  vertical-align: Top;
+  color: #6a4029;
+  font-weight: 700;
+}
+
+.card-title {
+  font-family: Poppins;
+  font-style: black;
+  font-size: 20px;
+  line-height: 22px;
+  line-height: 101%;
+  text-align: Center;
+  vertical-align: Top;
+  color: #000000;
+  font-weight: 900;
+}
+/* End Menu and Product */
+
+/*  Start Footer */
+
+#cont-footer {
+  /* margin-top: 80px; */
+  padding: 0px;
+}
+
+#jum-footer {
+  background-color: #f8f8f8;
+  background-image: none;
+  margin-top: 0px;
+  padding: 71px;
+}
+
+#review-coffee {
+  margin-top: 25px;
+  width: 63%;
+  text-align: left;
+  font-family: Rubik;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 158%;
+  align-content: flex-start;
+  font-weight: 500;
+  vertical-align: Top;
+  color: #4f5665;
+}
+#image-icon {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: -19px;
+}
+#copyright {
+  color: #afb5c0;
+
+  margin-left: -3px;
+}
+
+#head-footer-right {
+  text-align: left;
+  font-family: Rubik;
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  line-height: 141%;
+  padding: 5px;
+  color: #0b132a;
+  margin-left: -10px;
+}
+#list {
+  margin-left: -3%;
+  list-style: none;
+  text-align: left;
+  font-family: Rubik;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 50px;
+  line-height: 245%;
+  word-spacing: 5px;
+
+  color: #4f5665;
+}
+/* End Footer */
